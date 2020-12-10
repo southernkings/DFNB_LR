@@ -31,6 +31,7 @@ distributed under the same license terms.
 USE DFNB2
 
 SELECT 
+<<<<<<< HEAD
 	[acct_branch_lat]
 	,[acct_branch_lon]
 	,[acct_branch_add_id]
@@ -41,3 +42,15 @@ SELECT
 
 INTO Account_branch
 FROM dbo.stg_p1
+=======
+	[acct_branch_lat]
+	,[acct_branch_lon]
+	,[acct_branch_add_id]
+	,[acct_branch_add_lat]
+	,[acct_branch_add_lon]
+	,[acct_branch_add_type]
+
+
+INTO Account_branch
+FROM dbo.stg_p1
+>>>>>>> 579273b8fffaafd95c799c0b9ce4b1b3752c1f28

@@ -31,6 +31,7 @@ distributed under the same license terms.
 USE DFNB2
 
 SELECT 
+<<<<<<< HEAD
 	[cust_id]
 	,[first_name]
 	,[last_name]
@@ -38,3 +39,12 @@ SELECT
 
 INTO Gender_table
 FROM dbo.stg_p1
+=======
+	[cust_id]
+	,[first_name]
+	,[last_name]
+	,[gender]
+
+INTO Gender_table
+FROM dbo.stg_p1
+>>>>>>> 579273b8fffaafd95c799c0b9ce4b1b3752c1f28

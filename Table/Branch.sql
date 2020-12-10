@@ -31,9 +31,16 @@ distributed under the same license terms.
 USE DFNB2
 
 SELECT 
+<<<<<<< HEAD
 	[branch_id]
 	,[acct_branch_id]
 	,[acct_branch_code]
 	,[acct_branch_desc]
+=======
+	[branch_id]
+	,[acct_branch_id]
+	,[acct_branch_code]
+	,[acct_branch_desc]
+>>>>>>> 579273b8fffaafd95c799c0b9ce4b1b3752c1f28
 INTO Branch
 FROM dbo.stg_p1

@@ -31,6 +31,7 @@ distributed under the same license terms.
 USE DFNB2
 
 SELECT 
+<<<<<<< HEAD
 	[cust_id]
 	,[acct_id]
 	,[first_name]
@@ -38,5 +39,14 @@ SELECT
 	,[cur_bal]
 	,[acct_region_id]
 
+=======
+	[cust_id]
+	,[acct_id]
+	,[first_name]
+	,[last_name]
+	,[cur_bal]
+	,[acct_region_id]
+
+>>>>>>> 579273b8fffaafd95c799c0b9ce4b1b3752c1f28
 INTO Account
 FROM dbo.stg_p1
