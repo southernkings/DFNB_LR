@@ -122,5 +122,5 @@ Insert into [dbo].[Transactions]
 select 
 
 
-from [dbo].[stg_p2];
+
 
